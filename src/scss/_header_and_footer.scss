@@ -1,0 +1,26 @@
+.header-container {
+  height: 15vh;
+  margin-bottom: 10vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.footer-container,
+.header-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: darken($link, 35%);
+  color: $white;
+}
+.header-container h1 {
+  color: $white;
+}
+.footer-container {
+  min-height: 100px;
+  margin-top: 15vh;
+
+  bottom: 0;
+}

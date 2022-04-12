@@ -1,0 +1,38 @@
+#liste {
+  margin-top: 3rem;
+}
+.text-container {
+  max-width: 100%;
+  word-wrap: break-word;
+}
+.done,
+.to-do {
+  border-radius: 5px;
+  min-width: 100%;
+  margin-bottom: 2rem;
+  border: 1px solid black;
+}
+
+.fa-edit:hover,
+.fa-check:hover,
+.fa-times:hover {
+  transition: all 0.2s ease-in;
+}
+.fa-edit:hover,
+.fa-check:hover,
+.fa-times:hover {
+  color: darken($link, 30%) !important;
+}
+/// color class to mask modif icon when task is marked as done
+.unactive-danger {
+  color: $danger;
+}
+
+///color class to mask done icon when modification form is opened
+
+.unactive-link {
+  color: $link;
+}
+
+.une-classe-pour-tester-si-uncss-fonctionne {
+}

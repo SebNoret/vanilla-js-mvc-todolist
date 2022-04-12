@@ -1,0 +1,24 @@
+{
+  "name": "mvc-todo-app",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/public/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build --no-source-maps  --public-url ./"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "autoprefixer": "^10.4.2",
+    "bulma": "^0.9.3",
+    "parcel": "^2.2.1",
+    "postcss": "^8.4.6",
+    "postcss-modules": "^4.3.0"
+  }
+}

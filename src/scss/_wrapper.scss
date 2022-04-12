@@ -1,0 +1,14 @@
+/* le contenu fait 90% de la largeur du corp de la page */
+#wrapper {
+  width: 90%;
+  margin: auto;
+}
+.main-container {
+  min-height: 70vh;
+}
+/* si la page fait plus de 550 pixels de large, le contenu en fait 500 */
+@media (min-width: 550px) {
+  #wrapper {
+    width: 500px;
+  }
+}
