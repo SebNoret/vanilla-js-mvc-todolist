@@ -1,6 +1,6 @@
-import Model from "../models/Model.js";
-import TodoListController from "./TodoListComponent/TodoListController.js";
-import TodoListView from "./TodoListComponent/TodoListView.js";
+import Model from "../models/Model.ts";
+import TodoListController from "./TodoListComponent/TodoListController.ts";
+import TodoListView from "./TodoListComponent/TodoListView.ts";
 
 const model = new Model();
 

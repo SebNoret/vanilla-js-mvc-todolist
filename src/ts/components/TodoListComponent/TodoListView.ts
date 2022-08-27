@@ -1,5 +1,5 @@
-import AbstractView from "./AbstractView.js";
-import Templates from "./Templates.js";
+import AbstractView from "./AbstractView.ts";
+import Templates from "./Templates.ts";
 
 const templates = new Templates();
 
