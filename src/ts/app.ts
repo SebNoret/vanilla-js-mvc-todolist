@@ -1,5 +1,9 @@
+import { ComponentSettings } from "./types";
+
 class App {
-  constructor(root, settings) {
+  root: HTMLElement;
+  settings: ComponentSettings;
+  constructor(root: HTMLElement, settings: ComponentSettings) {
     this.root = root;
     this.settings = settings;
   }
