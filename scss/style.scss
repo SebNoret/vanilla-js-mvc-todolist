@@ -1,17 +1,34 @@
 @charset "utf-8";
-@import "../../node_modules/bulma/bulma.sass";
+// @import "../../node_modules/bulma/bulma.sass";
+@import "../node_modules/bulma/bulma.sass";
 // @import "../../node_modules/bulma/sass/utilities/_all";
 // @import "../../node_modules/bulma/sass/base/_all";
 // @import "../../node_modules/bulma/sass/elements/title.sass";
 // @import "../../node_modules/bulma/sass/elements/button.sass";
-
 // @import "../../node_modules/bulma/sass/form/_all.sass";
-
 // @import "../../node_modules/bulma/sass/components/message.sass";
 // @import "../../node_modules/bulma/sass/grid/columns.sass";
 // @import "../../node_modules/bulma/sass/helpers/_all.sass";
-
-@import "../scss/default-config";
+@import "./scss/default-config";
 @import "./wrapper.scss";
 @import "./header_and_footer";
 @import "./_list-and-elements";
+
+/* Default font size */
+body {
+  font-size: 16px;
+}
+
+/* Font size for screens smaller than 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Font size for screens smaller than 400px */
+@media (max-width: 400px) {
+  body {
+    font-size: 12px;
+  }
+}

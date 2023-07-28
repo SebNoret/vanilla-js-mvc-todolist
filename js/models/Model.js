@@ -41,7 +41,7 @@ class Model {
   }
 
   addTodo(text) {
-    if (this.todos.length > 1) {
+    if (this.todos.length >= 1) {
       this.todos.push({
         id: this.todos.length + 1,
         text: text,
