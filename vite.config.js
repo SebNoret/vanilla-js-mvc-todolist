@@ -5,7 +5,7 @@ import { createHtmlPlugin } from "vite-plugin-html";
 import autoprefixer from "autoprefixer";
 const test = "http://localhost/dist/";
 const dev = "http://localhost:5173/";
-const prod = "https://sebnoret-portfolio.netlify.app/todo-list/demo/";
+const prod = "https://snt-portfolio.netlify.app/todo-list/demo/";
 export default defineConfig({
   base: prod,
   plugins: [
